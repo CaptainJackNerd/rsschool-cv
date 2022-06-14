@@ -11,13 +11,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-    <header class="header"></header>
+<body><header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">          
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Professional Skills</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </header>
 
-    <main class="main"></main>
+<div class="cv">
+  <div class="column-left">
+    <section class="profile">
+      <h1>Kseniia Shushpanova</h1>
+      <p><em>Frontend Developer</em></p>
+      <img src="./assets/img/myavatar.jpg" alt="profile-photo">
+    </section>
 
-    <footer class="footer"></footer>
+    <section class="contact" id="contacts">
+      <h2>Contacts</h2>
+      <ul>
+        <li><a href="mailto:kseniiashu@gmail.com">kseniiashu@gmail.com</a></li>
+        <li><a href="tel:+7 (123) 456 78 90">+7 (123) 456 78 90</a></li>
+      </ul>
+    </section>
+
+    <section class="summary" id="summary">
+      <h2>Summary</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis natus culpa illo tenetur inventore omnis. Inventore id nobis facilis nam nulla cupiditate dolor! Quam quos nemo vel delectus iste minus!
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Professonal Skills</h2>
+      <ul class="section-list">
+          <li class="section-item">
+            Web-development:<span> HTML5, CSS3</span>
+          </li>
+          <li class="section-item">
+            Version control:<span> GIT, Github</span>
+          </li>
+          <li class="section-item">
+            Graphics:<span>Adobe Photoshop CS, Adobe Photoshop Lightoom</span>
+            <li class="section-item">
+            3D:<span> Zbrush, Autodesk 3ds Max</span>
+          </li>
+          </li>
+        </ul>
+    </section>
+  </div>
+
+  <div class="column-right">
+    <section class="education" id="education">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li class="event">
+          <span class="duration">2013 - 2017</span>
+          <div class="content">
+            <h3>Bachelor in Marketing</h3>
+            <p><em>GSOM SPbU</em></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum est nisi porro eaque aspernatur maxime illum dignissimos reprehenderit. Exercitationem, natus.</p>
+          </div>
+        </li>
+        <li class="event">
+          <span class="duration">2017 - 2019</span>
+          <div class="content">
+            <h3>Master in Marketing</h3>
+            <p><em>GSOM SPbU</em></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum est nisi porro eaque aspernatur maxime illum dignissimos reprehenderit. Exercitationem, natus.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="code" id="code">
+      <h2>Code example</h2>
+      <pre class="pre"><code>function multiply(a, b){
+ return a * b
+}</code></pre>
+    </section>
     
-</body>
-</html>
+    <section class="pojects" id="projects">
+      <h2>Projects</h2>
+      
+    <section class="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>Russian - native speaker</li>
+            <li>English - C1</li>
+            <li>French - B1</li>
+          </ul>
+    </section>
+  </div>
+  </div>
+    
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2022 <a href="https://github.com/CaptainJackNerd" class="github nav-link">CaptainJackNerd</a></div>
+      <div align="right"><a href="https://rs.school/js/" class="rss"><img src="./assets/svg/rsavatar.svg"></a></div>
+    </div>
+  </footer></body>
