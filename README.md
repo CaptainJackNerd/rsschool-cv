@@ -1,1 +1,1 @@
-# rsschool-cv
+https://captainjacknerd.github.io/rsschool-cv/
